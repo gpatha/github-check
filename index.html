@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let a = 5;
+        // let b = "Gaurav is here";
+        const a = 50; // 
+        // a = 60; you can not initialize it again.
+        console.log(a);
+
+        /* primary data types
+        Number
+        objects
+        boolean - true,  false
+        String
+        undefined
+        null  */
+
+        // functions
+        function hello(){
+            console.log(gaurav);
+        }
+
+        // objects 
+        let object = {
+            b : 05,  // key value pair
+            c : 10,
+            func : function call(number){
+                console.log(" the number is "+ number);
+            }
+        }
+
+        // events
+        document.addEventListener("click", function click(){
+            console.log("clicked");
+            // alert(" you have clicked");
+            let conf = confirm(" Are you sure");
+            console.log(conf);
+        })
+
+        let array = [10, 05, 20, 40];
+
+        // settimeout helps to prevent blocking of execution.
+
+        setTimeout(() => {
+            console.log(" this is set time out execute after 3000 miliseconds");
+        }, 3000); // fire call back after 3 sec.
+
+        console.log(" after 3000 miliseconds set timeout will execute");
+    </script>
+</head>
+<body>
+   <h1> I am learning javascript.
+</h1>
+
+  
+ </body>
+</html>
